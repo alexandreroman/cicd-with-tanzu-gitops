@@ -1,0 +1,20 @@
+apiVersion: kpack.io/v1alpha1
+kind: Image
+metadata:
+  name: cnb-springboot
+  namespace: default
+spec:
+  tag: harbor.withtanzu.com/tanzu-apps/cnb-springboot
+  serviceAccount: default
+  builder:
+    name: default
+    kind: ClusterBuilder
+  cacheSize: "2Gi"
+  build:
+    env:
+    - name: BP_JAVA_VERSION
+      value: 11.*
+  source:
+    git:
+      url: https://github.com/alexandreroman/cnb-springboot
+      revision: fdfa21e836fcce5b4d3cbe847109c5a99e23f7e3
