@@ -17,4 +17,4 @@ spec:
   source:
     git:
       url: https://github.com/alexandreroman/cnb-springboot
-      revision: fdfa21e836fcce5b4d3cbe847109c5a99e23f7e3
+      revision: 0d5694a3dade6ff79503880919c6aee9e6041c27
