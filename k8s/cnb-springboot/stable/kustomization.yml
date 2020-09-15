@@ -3,8 +3,8 @@ kind: Kustomization
 resources:
 - ../base
 images:
-- digest: sha256:c3a08c538addfac14a2fe0e16ddd09c49c48ea2310c5964cd6b5cebf2761a30d
+- digest: sha256:ef0febe5d8e9a49d83549c4b8a50f4bc4c1dc36efad15cdfe24943cac8765e74
   name: cnb-springboot
   newName: harbor.withtanzu.com/tanzu-apps/cnb-springboot
 commonAnnotations:
-  timestamp: 20200915T142536
+  timestamp: 20200915T144724
