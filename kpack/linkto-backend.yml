@@ -1,0 +1,23 @@
+apiVersion: kpack.io/v1alpha1
+kind: Image
+metadata:
+  name: linkto-backend
+  namespace: default
+spec:
+  tag: harbor.withtanzu.com/tanzu-apps/linkto-backend
+  serviceAccount: default
+  builder:
+    name: default
+    kind: ClusterBuilder
+  cacheSize: "2Gi"
+  build:
+    env:
+    - name: BP_JAVA_VERSION
+      value: 11.*
+    - name: BP_MAVEN_BUILT_MODULE
+      value: 
+  source:
+    subPath: backend
+    git:
+      url: https://github.com/alexandreroman/linkto
+      revision: d54c4695f538578f74903da5d58ee30710fb5ead
