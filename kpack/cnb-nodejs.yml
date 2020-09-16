@@ -1,0 +1,16 @@
+apiVersion: kpack.io/v1alpha1
+kind: Image
+metadata:
+  name: cnb-nodejs
+  namespace: default
+spec:
+  tag: harbor.withtanzu.com/tanzu-apps/cnb-nodejs
+  serviceAccount: default
+  builder:
+    name: default
+    kind: ClusterBuilder
+  cacheSize: "2Gi"
+  source:
+    git:
+      url: https://github.com/alexandreroman/cnb-nodejs
+      revision: c56531163d9098984e3a0d60b8139f992448c8b9
