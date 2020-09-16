@@ -7,4 +7,4 @@ images:
   name: cnb-springboot
   newName: harbor.withtanzu.com/tanzu-apps/cnb-springboot
 commonAnnotations:
-  timestamp: 20200916T190150
+  timestamp: 20200916T201230
