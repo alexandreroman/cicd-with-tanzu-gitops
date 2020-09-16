@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: alexandreroman/linkto-backend
+          image: linkto-backend
           resources:
             limits:
               memory: 1Gi
@@ -61,7 +61,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: alexandreroman/linkto-frontend
+          image: linkto-frontend
           resources:
             limits:
               memory: 1Gi
