@@ -13,4 +13,4 @@ spec:
   source:
     git:
       url: https://github.com/alexandreroman/cnb-nodejs
-      revision: c56531163d9098984e3a0d60b8139f992448c8b9
+      revision: 483b9f0e41667232f7762fa178d46589bf71cb0c
