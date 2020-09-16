@@ -4,7 +4,7 @@ images:
 - digest: sha256:ecbaa23bc50a76a8c0cd478c6959d6baa59b6b312721abe91cd4038d2d6fff0b
   name: linkto-backend
   newName: harbor.withtanzu.com/tanzu-apps/linkto-backend
-- digest: sha256:ca5f3d3b56b02ae3ea87e1ab0885930fe86884ec47cce7d563cec984bccfc862
+- digest: sha256:ee8c8e5876f15116d04a337b23e8c23827af5c227caef108300233c270543a99
   name: linkto-frontend
   newName: harbor.withtanzu.com/tanzu-apps/linkto-frontend
 commonAnnotations:
