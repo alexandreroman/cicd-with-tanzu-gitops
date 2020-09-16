@@ -1,6 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-resources:
+bases:
 - ../base
 images:
 - digest: sha256:fc60ee978fa599e39a90631e986718ccfbb3a8d02108b49c0e8ceaf58b397832
