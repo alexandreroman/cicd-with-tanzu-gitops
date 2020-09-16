@@ -7,4 +7,4 @@ images:
   name: cnb-nodejs
   newName: harbor.withtanzu.com/tanzu-apps/cnb-nodejs
 commonAnnotations:
-  timestamp: 20200916T201436
+  timestamp: 20200916T201617
