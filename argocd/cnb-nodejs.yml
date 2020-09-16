@@ -1,0 +1,17 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: cnb-nodejs
+spec:
+  project: default
+  source:
+    repoURL: 'https://github.com/alexandreroman/cicd-with-tanzu-gitops.git'
+    path: k8s/cnb-nodejs/stable
+    targetRevision: HEAD
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: cnb-nodejs
+  syncPolicy:
+    automated:
+      selfHeal: true
