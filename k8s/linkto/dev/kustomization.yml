@@ -3,11 +3,11 @@ kind: Kustomization
 resources:
 - ../base
 images:
-- digest: sha256:8b6dbbbe77a5a2bae743a3c58817b07e85ff9e3f507478cbcaee977ac33f872f
+- digest: sha256:e73243522fac242078fe2aee5abc78482fdd86f01712eb6abca8f00525de42ae
   name: linkto-backend
   newName: harbor.withtanzu.com/tanzu-apps/linkto-backend
 - digest: sha256:7bde6ca9baa6a3f34358a3de9d4e5c37568edee64a80e2036feee8e62c0f3454
   name: linkto-frontend
   newName: harbor.withtanzu.com/tanzu-apps/linkto-frontend
 commonAnnotations:
-  timestamp: 20200916T185537
+  timestamp: 20200916T185603
