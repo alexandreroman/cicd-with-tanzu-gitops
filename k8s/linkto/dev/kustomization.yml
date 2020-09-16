@@ -6,8 +6,8 @@ images:
 - digest: sha256:e73243522fac242078fe2aee5abc78482fdd86f01712eb6abca8f00525de42ae
   name: linkto-backend
   newName: harbor.withtanzu.com/tanzu-apps/linkto-backend
-- digest: sha256:7bde6ca9baa6a3f34358a3de9d4e5c37568edee64a80e2036feee8e62c0f3454
+- digest: sha256:49e48085a9deb161405ed86ba861e02cbb22e3f85487d5d188b28a1c476b01da
   name: linkto-frontend
   newName: harbor.withtanzu.com/tanzu-apps/linkto-frontend
 commonAnnotations:
-  timestamp: 20200916T185603
+  timestamp: 20200916T190030
