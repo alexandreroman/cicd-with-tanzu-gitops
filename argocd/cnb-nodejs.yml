@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/alexandreroman/cicd-with-tanzu-gitops.git'
-    path: k8s/cnb-nodejs/stable
+    path: k8s/cnb-nodejs/dev
     targetRevision: HEAD
   destination:
     server: 'https://kubernetes.default.svc'
