@@ -20,4 +20,4 @@ spec:
     subPath: backend
     git:
       url: https://github.com/alexandreroman/linkto
-      revision: 70ad1cab7a357da6ffb94ad98903263ae6b5efae
+      revision: e70660a90ba876fea1944ae57a266b002d2346ed
