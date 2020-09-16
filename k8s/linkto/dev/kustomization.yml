@@ -8,6 +8,6 @@ images:
   name: linkto-frontend
   newName: harbor.withtanzu.com/tanzu-apps/linkto-frontend
 commonAnnotations:
-  timestamp: 20200916T201816
+  timestamp: 20200916T201919
 resources:
 - ../base
