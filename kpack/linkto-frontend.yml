@@ -1,0 +1,17 @@
+apiVersion: kpack.io/v1alpha1
+kind: Image
+metadata:
+  name: linkto-frontend
+  namespace: default
+spec:
+  tag: harbor.withtanzu.com/tanzu-apps/linkto-frontend
+  serviceAccount: default
+  builder:
+    name: default
+    kind: ClusterBuilder
+  cacheSize: "2Gi"
+  source:
+    subPath: frontend
+    git:
+      url: https://github.com/alexandreroman/linkto
+      revision: 6dc8acc9392dad8ff5aa1f6ca5b2d8f150603f5f
