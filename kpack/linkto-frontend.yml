@@ -14,4 +14,4 @@ spec:
     subPath: frontend
     git:
       url: https://github.com/alexandreroman/linkto
-      revision: e70660a90ba876fea1944ae57a266b002d2346ed
+      revision: ba7f21ac9bc3901444a4d7e3a3f016901fedb301
