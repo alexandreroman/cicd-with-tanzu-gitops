@@ -5,6 +5,7 @@ namespace: linkto
 resources:
 - namespace.yml
 - deployment.yml
+- statefulset.yml
 - pvc.yml
 - service.yml
 - ingress.yml
