@@ -1,13 +1,13 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- digest: sha256:2d8e4346c69cd74394260adf85780700b2a5c3f42b27303cad1f5bf852c0a4d6
+- digest: sha256:ccf3d104096667a794395dd6c654a840e48f5f4d311928570baf8eeeefd00531
   name: linkto-backend
   newName: harbor.withtanzu.com/tanzu-apps/linkto-backend
 - digest: sha256:0acb39c0c601cb0d0e6cc1874ef2653813610fe68bac17c00c299b999b5d37f2
   name: linkto-frontend
   newName: harbor.withtanzu.com/tanzu-apps/linkto-frontend
 commonAnnotations:
-  timestamp: 20200916T212017
+  timestamp: 20200916T212537
 resources:
 - ../base
