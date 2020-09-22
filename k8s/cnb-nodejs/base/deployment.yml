@@ -18,7 +18,7 @@ spec:
         prometheus.io/port:  "8080"
     spec:
       containers:
-        - image: alexandreroman/cnb-nodejs
+        - image: cnb-nodejs
           name: app
           resources:
             limits:
