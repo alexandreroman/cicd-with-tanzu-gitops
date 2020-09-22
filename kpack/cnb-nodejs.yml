@@ -11,6 +11,7 @@ spec:
     kind: ClusterBuilder
   cacheSize: "2Gi"
   source:
+    subPath: .
     git:
       url: https://github.com/alexandreroman/cnb-nodejs
-      revision: 483b9f0e41667232f7762fa178d46589bf71cb0c
+      revision: c78e26aaadb5d55454cf6d3a6f9b5405fa0e4126
