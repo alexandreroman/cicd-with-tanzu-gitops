@@ -1,10 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- digest: sha256:1629ff1c02f1a37e23044f51d42610e10ba79179411d271041474302ce57d8d1
+- digest: sha256:303be0f2e7ce6cdfd83bfe7352c0c2a37ea85a041ff0d89a4c60866c0fc4d99a
   name: cnb-springboot
   newName: harbor.withtanzu.com/tanzu-apps/cnb-springboot
 commonAnnotations:
-  timestamp: 20200923T103533
+  timestamp: 20200923T110437
 resources:
 - ../base
