@@ -10,4 +10,4 @@ resources:
 configMapGenerator:
   - name: app
     literals:
-      - APP_MESSAGE="Yo GitOps!"
+      - APP_MESSAGE="Hello Spring Boot!"
