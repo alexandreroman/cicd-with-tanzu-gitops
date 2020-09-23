@@ -20,4 +20,4 @@ spec:
     subPath: .
     git:
       url: https://github.com/alexandreroman/cnb-springboot
-      revision: f1ad5900e19f7a23d85aa075dc97058fc7a13024
+      revision: 1202ccae2333cfe00942df288721aa13c4f6c639
