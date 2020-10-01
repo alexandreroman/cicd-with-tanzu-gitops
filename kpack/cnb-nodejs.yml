@@ -14,4 +14,4 @@ spec:
     subPath: .
     git:
       url: https://github.com/alexandreroman/cnb-nodejs
-      revision: 4921588e9e67ef1c48571098bd1f5ef9196cbdd6
+      revision: ccc4aca259d9798f9e0391a1ec36c8c70c9efd9b
