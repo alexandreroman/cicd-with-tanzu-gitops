@@ -1,10 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- digest: sha256:92185ec47da976377ccfcafb1a389606c371377115d77a22478c0cba234f66c5
+- digest: sha256:aeeec0e62abfa1c01de1a454a8272c3b150e4fd3d8466c455b00318616198844
   name: cnb-nodejs
   newName: harbor.withtanzu.com/tanzu-apps/cnb-nodejs
 commonAnnotations:
-  timestamp: 20201005T085925
+  timestamp: 20201005T090151
 resources:
 - ../base
